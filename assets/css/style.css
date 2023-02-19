@@ -1,0 +1,56 @@
+body{
+    background-image: linear-gradient(to right, rgb(88, 47, 127), #2a123f);
+    height: 100vh;
+}
+
+.gitSearch {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.gitSearch .form-control {
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#2e95a3 0%,#2c6dd5 28%,#ff4b5a 91%,#ff4b5a 100%);
+    color: #fff;
+}
+
+.gitSearch input::placeholder{
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+.gitSearch .card{
+    background-color: #173974;
+    border-radius: 25px;
+    box-shadow: 1px 1px 30px 3px #ededed;
+}
+
+.gitSearch .profileImg {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.userProfile li a:hover,
+.userProfile li a:active,
+.userProfile li a:focus{
+    text-decoration: none;
+}
+
+.userProfile .userFollow a{
+    font-size: 20px;
+}
+
+.userProfile .repoLinks li{
+    background-color: #0d2754;
+}
+
+.userProfile .repoLinks {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
